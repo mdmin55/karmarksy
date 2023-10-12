@@ -1,0 +1,1504 @@
+body {
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: "bold";
+    src: url(..//fonts/SofiaSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: "medium";
+    src: url(..//fonts/SofiaSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: "klasic";
+    src: url(..//fonts/Roboto-Medium.ttf);
+}
+
+nav {
+    z-index: 99;
+}
+
+.navbar-brad img {
+    margin-left: 30px;
+    width: 70px;
+}
+
+.navbar {
+    float: none;
+    text-align: center;
+    padding-right: 4%;
+    font-family: "medium";
+    margin-top: 1%;
+}
+
+.nav-item {
+    font-size: 24px;
+    padding-right: 40px;
+}
+
+.nav-link {
+    color: #7D4D31 !important;
+}
+
+.nav-link-one {
+
+    color: #7D4D31;
+    text-decoration: none;
+    font-size: 45px;
+    font-family: "bold";
+    padding-left: 40px;
+}
+
+.nav-link-one:hover {
+    text-decoration: none;
+    color: #7D4D31;
+    src: url(..//css/fonts/SofiaSans-Bold.ttf);
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+
+.block1 {
+    background: url('../img/image1.png') no-repeat center;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.block2 {
+    background: url('../img/image\ 1.png') no-repeat center;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.block5 {
+    background: url('../img/mu.png') no-repeat center;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.block1_1 {
+    margin-top: 20%;
+}
+
+.p1 {
+    font-family: "bold";
+    font-size: 60px;
+}
+
+.p2 {
+    font-family: "medium";
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    margin-top: 50pt;
+}
+
+
+main {
+    font-family: "klasic";
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-top: 70px;
+}
+
+footer {
+    font-family: "klasic";
+    width: 100%;
+    height: 100px;
+    background: rgba(193, 146, 119, 0.51);
+    margin: auto;
+}
+
+.cont_foot {
+    margin-top: 5%;
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.p1_footer {
+    font-size: 25px;
+}
+
+.content_1 {
+    display: flex;
+    align-items: center;
+}
+
+.text_maine {
+    font-size: 28px;
+    margin-top: 5%;
+
+}
+
+.img_maine_1 {
+    width: 710px;
+    height: 450px;
+    padding-left: 2%;
+}
+
+h1 {
+    font-size: 46px;
+    font-family: "bold";
+    color: #7D4D31;
+}
+
+.cont_foot a {
+    font-size: 25px;
+    color: #000;
+}
+
+.a_footer:hover {
+    color: #7D4D31;
+}
+
+marquee {
+    margin-top: 4%;
+}
+
+.container_scroll {
+    width: 100%;
+    height: 400px;
+}
+
+.img_scroll {
+
+    height: 100%;
+}
+
+.im1 {
+    margin-right: 60px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+.block3 {
+    background: url('../img/image\ 1\ \(1\).png') no-repeat center;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.ekskurs1,
+.ekskurs2,
+.ekskurs3,
+.ekskurs4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40pt;
+
+}
+
+.btn {
+    font-family: "medium";
+    background-color: #7D4D31;
+    color: white;
+    width: 190pt;
+    height: 48pt;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.text_but {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+
+}
+
+.but_p{
+    margin-bottom: 0px;
+}
+
+/* .text_but2{
+    display: flex;
+    flex-direction: column;
+     
+} */
+.img_eskurs {
+    width: 500px;
+}
+
+
+body._locked {
+    overflow: hidden;
+  }
+  
+  
+  .modal__btn {
+    border: none;
+    font-family: "medium";
+    background-color: #7D4D31;
+    color: white;
+    width: 190pt;
+    height: 48pt;
+    margin-top: 20px;
+    font-size: 30px;
+   text-align: center;
+   
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 5px;
+  
+    cursor: pointer;
+  }
+  
+  ._modal {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    pointer-events: none;
+  }
+  
+  ._modal._active {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+  }
+  
+  .modal-bg {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 20px;
+  }
+  
+  .modal-body {
+    padding: 24px;
+    background-color: #fff;
+    width: 700px;
+    margin: auto;
+    max-height: 90%;
+    overflow: auto;
+    border-radius: 16px;
+    position: relative;
+  }
+  
+  .modal-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    cursor: pointer;
+  }
+  .modal-close1, .modal-close2 {
+    position: absolute;
+    margin-top:-90px ;
+    margin-right: 40px;
+    cursor: pointer;
+  }
+ .telNo{
+    width: 160px;
+ }
+ .main_sv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+ }
+  .h2{
+    margin-left: 10px;
+  }
+  b{
+    margin-left: 10px;
+  }
+  .kalen{
+    width: 160px;
+   
+  }
+  .mod_flex{
+    display: flex;
+    justify-content: flex-end;
+
+  }
+  .lefr_padio_1{
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  }
+  .lefr_padio_2{
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+  }
+  .aren_img{
+    width: 200px;
+  }
+  .telNo{
+    
+  }
+
+  .p1_merop{
+    font-family: "bold";
+
+}
+.text_maine_merop{
+    font-size: 35px;
+    margin-top: 30pt;
+    font-family: "bold";
+}
+.img_merop{
+    display: flex;
+    margin: 5pt;
+    
+}
+.img_cor{width: 90%;
+    height: 70%;
+    margin-right: 10px;
+}
+.text_maine_merop1
+{
+    margin:0  auto;
+    font-size: 35px;
+    margin-top: 30pt;
+    font-family: "medium";
+    width: 1260px;
+}
+.img_maine_1 {
+    width: 710px;
+    height: 450px;
+    padding-left: 2%;
+}
+
+ 
+  .block4{
+    background: url('../img/merop.png') no-repeat center;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/* .btn {
+    font-family: "medium";
+    background-color: #7D4D31;
+    color: white;
+    width: 190pt;
+    height: 48pt;
+    margin-top: 30px;
+    font-size: 30px;
+} */
+.btn1{
+    font-family: "medium";
+    background-color: #7D4D31;
+    color: white;
+    width: 259pt;
+    height: 48pt;
+    margin-top: 30px;
+    font-size: 30px;
+    display: flex; /*тут надо менять вроде*/
+    justify-content: center;
+    border: none;
+    border-radius: 5pt;
+    margin: auto;
+}
+.btn1:hover, .btn:hover{
+    background-color: #a07055;
+    border: none;
+
+}
+.vk{
+    margin-top: 30pt;
+    display: flex;
+    font-size: 20pt;
+    justify-content: flex-start;
+ 
+}
+.vk p{
+    margin-left: 1%;
+}
+.content_1_kontakti{
+    font-family: "bold";
+}
+.content_1_merop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img_merop{
+    margin-top: 48pt;
+}
+.fio{
+    width: 300px;
+}
+.telNo{
+    width: 300px;
+}
+.men{
+    width: 600px;
+}
+@media (max-width:1700px) {
+    .cont_foot {
+        margin-left: 2%;
+    }
+}
+
+@media (max-width:1600px) {
+    .text_maine {
+        font-size: 26px;
+    }
+}
+
+
+@media (max-width:1500px) {
+    .text_maine {
+        font-size: 24px;
+    }
+
+    .img_maine_1 {
+        width: 530px;
+        height: 400px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .p1_footer {
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+
+    .cont_foot a {
+        font-size: 20px;
+    }
+
+    .cont_foot {
+        margin-left: 0%;
+    }
+    .fest{
+        font-size: 40px;
+    }
+    .img_merop{
+        width: 800px;
+    }
+    .festival p{
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width:1400px) {
+    .text_maine_merop1{
+        width: 1000px;
+    }
+    .text_maine {
+        font-size: 23px;
+    }
+
+    h1 {
+
+        font-size: 34px;
+    }
+
+    .cont_foot {
+        margin-left: 1%;
+    }
+
+    .p1 {
+        font-size: 45px;
+    }
+
+    .p2 {
+        font-size: 30px;
+    }
+
+    .map {
+        width: 500px;
+        height: 350px;
+    }
+
+    .nav-link-one {
+        font-size: 35px;
+    }
+
+    .nav-item {
+        font-size: 20px;
+    }
+
+    .nav-item {
+        padding-right: 30px;
+    }
+    .festival p{
+        font-size: 22px;
+    }
+}
+
+@media (max-width:1300px) {
+    .festival p{
+        font-size: 22px;
+    }
+    .festival img{
+height: 400px;
+    }
+    .img_merop{
+        height: 500px;
+    }
+    .text_maine {
+        font-size: 21px;
+    }
+
+    .img_maine_1 {
+        width: 450px;
+        height: 350px;
+    }
+
+    .block2 {
+        height: 500px;
+    }
+
+    .block1 {
+        height: 500px;
+    }
+    .block1 {
+        height: 500px;
+    }
+    .block5 {
+        height: 500px;
+    }
+    .block3 {
+        height: 500px;
+    }
+
+    .nav-item {
+        padding-right: 20px;
+    }
+
+    .text_but {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width:1200px) {
+    .text_maine_merop1{
+        width: 900px;
+    }
+ .img_merop{
+        height: 400px;
+        width: 600px;
+    }
+    .festival img{
+        height: 300px;
+            }
+   
+    .nav-item {
+        padding-right: 10px;
+    }
+
+    .nav-link-one {
+        font-size: 40px;
+        padding-left: 2%;
+    }
+
+    .p1_footer {
+        font-size: 17px;
+    }
+
+    .cont_foot a {
+        font-size: 17px;
+    }
+
+    .img_eskurs {
+        width: 450px;
+    }
+
+    .btn {
+        width: 170pt;
+        font-size: 28px;
+        height: 45pt;
+    }
+
+    .text_but {
+        margin-left: 60px;
+    }
+}
+
+@media (max-width:1100px) {
+    .nav-item {
+        font-size: 19px;
+        padding-right: 0px;
+    }
+
+    .text_maine {
+        font-size: 19px;
+    }
+
+    .img_eskurs {
+        width: 400px;
+    }
+}
+
+@media (max-width:1000px) {
+    .dlah2{
+        font-size: 20px;
+    }
+.btn1{
+        width: 200px;
+        font-size: 20px;
+        height: 40px;
+    }
+ 
+    .img_merop{
+        margin-top: 20px;
+        height: 300px;
+    }
+    .fest{
+        font-size: 30px;
+    }
+    .men{
+        width: 400px;
+    }
+    .text_maine_merop1{
+        width: 800px;
+    }
+    .block2 {
+        height: 400px;
+    }
+
+    .block1 {
+        height: 400px;
+    }
+    .block4 {
+        height: 400px;
+    }
+    .block5 {
+        height: 400px;
+    }
+    .block3 {
+        height: 400px;
+    }
+
+    .p1 {
+        font-size: 35px;
+    }
+
+    .p2 {
+        font-size: 20px;
+    }
+
+    .text_maine {
+        font-size: 17px;
+    }
+
+    .nav-link-one {
+        font-size: 30px;
+        padding-left: 1%;
+    }
+
+    .p1_footer {
+        font-size: 15px;
+    }
+
+    .cont_foot a {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .content_1 {
+        height: 400px;
+    }
+
+    .im1 {
+        height: 300px;
+    }
+
+    .container_scroll {
+        height: 330px;
+    }
+
+    .text_but h2 {
+        font-size: 27px;
+    }
+
+    .btn {
+        width: 150pt;
+        font-size: 20px;
+        height: 42px;
+    }
+}
+
+@media (max-width:950px) {
+.text_maine_merop1{
+        width: 700px;
+    }
+ 
+    .festival p{
+        font-size: 18px;
+    }
+    h1 {
+        margin-bottom: 30px;
+    }
+
+    .text_maine p {
+        margin-top: 30px;
+    }
+
+    .container_scroll {
+        margin-top: 30px;
+    }
+
+    .nav-item {
+        font-size: 18px;
+    }
+
+    footer {
+        height: 40px;
+    }
+}
+
+@media (max-width:900px) {
+
+    .text_but h2 {
+        font-size: 22px;
+    }
+
+    .img_eskurs {
+        width: 350px;
+    }
+
+    .p1_footer {
+        font-size: 12px;
+    }
+
+    .cont_foot a {
+        font-size: 12px;
+        margin-left: 2%;
+    }
+
+    .text_maine {
+        font-size: 15px;
+    }
+
+    .container_scroll {
+        margin-top: 20px;
+    }
+
+    .img_maine_1 {
+        width: 330px;
+        height: 250px;
+    }
+
+    .content_1 {
+        height: 300px;
+    }
+
+    h1 {
+        margin-bottom: 10px;
+    }
+
+    .nav-link-one {
+        font-size: 25px;
+        padding-left: 1%;
+    }
+
+    .nav-item {
+        font-size: 17px;
+    }
+    .vk p{
+        font-size: 17px;
+        margin-top: 5px;
+    }
+    .vk_img{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+
+@media (max-width:800px) {
+.text_maine_merop1{
+    width: 600px;
+}
+}
+@media (max-width:800px) {
+   
+    .festival img{
+        height: 250px;
+        width: 300px;
+    }
+    .modal-callback__title{
+        font-size: 25px;
+    }
+    .ul_mod li{
+        font-size: 12px;
+    }
+    .img_eskurs {
+        width: 300px;
+    }
+    b{
+        font-size: 14px;
+    }
+
+.kalen{
+    width: 120px;
+}
+h3{
+    font-size: 24px;
+}
+.aren_img{
+    width: 150px;
+    height: 130px;
+}
+
+    .nav-item {
+        font-size: 16px;
+    }
+
+    .block2 {
+        height: 300px;
+    }
+
+    .block1 {
+        height: 300px;
+    }
+    .block5 {
+        height: 300px;
+    }
+    .block4 {
+        height: 300px;
+    }
+    .block3 {
+        height: 300px;
+    }
+
+    .map {
+        width: 400px;
+        height: 250px;
+    }
+
+    .container_scroll {
+        margin-top: 30px;
+        height: 270px;
+    }
+
+    .im1 {
+        height: 220px;
+    }
+
+    marquee {
+        height: 270px;
+    }
+
+    main {
+        margin-top: 50px;
+    }
+
+    .text_maine {
+        font-size: 14px;
+    }
+
+    .nav-link-one {
+
+        padding-left: 2%;
+    }
+
+}
+
+@media (max-width:750px) {
+    /* .modal-close1{
+        margin-bottom: 100px;
+    } */
+    /* .modal-body{
+        height: 600px;
+    } */
+    .text_but h2 {
+        font-size: 20px;
+    }
+
+    .btn {
+        width: 150px;
+        height: 33px;
+        font-size: 15px;
+    }
+
+    .text_maine {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .text_maine p {
+        margin-top: 10px;
+    }
+
+    .nav-link-one {
+
+        padding-left: 2%;
+    }
+
+    .p1_footer {
+        font-size: 9px;
+    }
+
+    .cont_foot a {
+        font-size: 9px;
+    }
+
+    .p1 {
+        font-size: 25px;
+    }
+
+    .p2 {
+        font-size: 15px;
+    }
+.fest{
+        font-size: 20px;
+    }
+    .festival p{
+        font-size: 15px;
+    }
+    .img_merop{
+height: 200px;
+        width: 500px;
+    }
+    .festival img{
+            height: 200px;
+            width: 250px;
+        }
+    .text_maine_merop1{
+       
+        width: 500px;
+    }
+}
+
+@media (max-width:650px) {
+    .fio{
+        width: 250px;
+    }
+    .telNo{
+        width: 250px;
+    }
+    .modal-callback__title{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .aren_img{
+        width: 120px;
+        height: 100px;
+    }
+    .img_eskurs {
+        width: 250px;
+    }
+
+    .text_but h2 {
+        font-size: 18px;
+    }
+
+    .btn {
+        margin-top: 10px;
+    }
+
+    .text_maine {
+        font-size: 10px;
+    }
+
+    .map {
+        width: 350px;
+        height: 200px;
+    }
+
+    .img_maine_1 {
+        width: 300px;
+        height: 200px;
+    }
+
+    .container_scroll {
+        margin-top: 0px;
+        height: 270px;
+    }
+
+    .content_1 {
+        height: 250px;
+    }
+
+    .text_maine {
+        margin-top: 10px;
+    }
+
+    footer {
+        height: 40px;
+    }
+
+ 
+}
+
+@media (max-width:550px) {
+.img_merop{
+        width: 200px;
+    }
+    .festival img{
+        height: 150px;
+        width: 200px;
+    }
+    .text_maine_merop1{
+        width: 400px;
+    }
+    .img_eskurs {
+        width: 200px;
+    }
+
+    .text_but h2 {
+        font-size: 15px;
+    }
+
+    .btn {
+        width: 120px;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    .p1_footer {
+        font-size: 8px;
+    }
+
+    .cont_foot a {
+        font-size: 8px;
+    }
+
+    .im1 {
+        height: 180px;
+        border-radius: 3px;
+    }
+
+    .img_maine_1 {
+        width: 270px;
+        height: 170px;
+    }
+
+    .container_scroll {
+        height: 220px;
+    }
+
+    main {
+        margin-top: 30px;
+    }
+.btn1{
+        width: 120px;
+        font-size: 10px;
+        height: 30px;
+    }
+ 
+}
+
+@media (max-width:512px) {
+    .festival img{
+        width: 150px;
+        height: 100px;
+    }
+    .img_merop{
+        height: 120px;
+    }
+    .text_maine_merop1{
+        width: 300px;
+    }
+    .aren_img{
+        width: 100px;
+        height: 80px;
+    }
+    .kalen{
+        width: 100px;
+        height: 25px;
+        font-size: 10px;
+    }
+    .text_maine p {
+        font-size: 8px;
+    }
+
+    .img_maine_1 {
+        width: 250px;
+        height: 150px;
+    }
+
+    .content_1 {
+        height: 200px;
+    }
+
+    .im1 {
+        height: 130px;
+    }
+
+    .container_scroll {
+        height: 180px;
+    }
+
+    .map {
+        height: 150px;
+    }
+
+    .p1 {
+        font-size: 18px;
+    }
+
+    .p2 {
+        font-size: 12px;
+    }
+
+    .block1 {
+        height: 220px;
+    }
+    
+    .block5 {
+        height: 220px;
+    }
+    .block4 {
+        height: 220px;
+    }
+    .block3 {
+        height: 220px;
+    }
+
+    .block2 {
+        height: 220px;
+    }
+
+    .p1_footer {
+        font-size: 8px;
+    }
+
+    .a_footer {
+        font-size: 8px;
+    }
+
+    main {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:500px) {
+    label{
+font-size: 12px;
+    }
+    .modal-callback__title{
+        font-size: 15px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    .aren_img{
+        width: 80px;
+        height: 50px;
+    }
+    .img_eskurs {
+        width: 180px;
+
+    }
+    .ekskurs1, .ekskurs2, .ekskurs3, .ekskurs4{
+        margin-bottom: 30px;
+    }
+
+    .text_but h2 {
+        font-size: 13px;
+    }
+
+    .btn {
+        width: 100px;
+        height: 25px;
+        font-size: 10px;
+        margin-top: 5px;
+        border-radius: 2px;
+    }
+
+    .text_but {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width:430px) {
+    main {
+        margin-top: 20px;
+    }
+
+    .text_maine p {
+        font-size: 7px;
+    }
+
+    .container_scroll {
+        height: 150px;
+    }
+
+}
+
+@media (max-width:430px) {
+    .text_maine p {
+        font-size: 5px;
+    }
+
+    .img_maine_1 {
+        width: 200px;
+        height: 100px;
+    }
+
+    .content_1 {
+        height: 130px;
+    }
+
+    footer {
+        height: 30px;
+    }
+
+    .nav-link-one {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 17px;
+    }
+
+    .map {
+        height: 150px;
+    }
+}
+
+@media (max-width:400px) {
+    .btn1{
+        width: 100px;
+        font-size: 8px;
+        height: 20px;
+        border-radius: 3px;
+    }
+    .text_maine p {
+        font-size: 5px;
+    }
+.fest{
+        font-size: 15px;
+    }
+    .telNo{
+        width: 200px;
+        height: 25px;
+    }
+    .fio{
+        width: 200px;
+        height: 25px;
+    }
+    .aren_img{
+        width: 80px;
+        height: 60px;
+    }
+    .kalen{
+        width: 100px;
+        height: 25px;
+        font-size: 10px;
+    }
+    .img_eskurs {
+        width: 150px;
+    }
+
+    .text_but h2 {
+        font-size: 12px;
+    }
+
+    .btn {
+        width: 80px;
+        height: 25px;
+        font-size: 8px;
+        margin-top: 5px;
+        border-radius: 2px;
+    }
+}
+@media (max-width:390px) {
+    .text_maine_merop1{
+        width: 200px;
+    }
+    .text_maine p{
+        font-size: 5px;
+    }
+    .festival img{
+        width: 100px;
+        height: 80px;
+    }
+    .festival p{
+        width: 220px;
+        font-size: 10px;
+    }
+    .aren_img{
+        width: 50px;
+        height: 40px;
+    }
+    .kalen{
+        width: 80px;
+        height: 20px;
+        font-size: 8px;
+    }
+    b{
+        font-size: 12px;
+    }
+    .vk p{
+        font-size: 10px;
+        margin-top: 15px;
+    }
+    .vk_img{
+        width: 20px;
+        height: 20px;
+    }
+    
+}
+
+@media (max-width:370px) {
+    .btn {
+        width: 70px;
+        height: 20px;
+        font-size: 6px;
+        margin-top: 5px;
+        border-radius: 2px;
+    }
+
+    .img_eskurs {
+        width: 120px;
+    }
+
+    .text_but h2 {
+        font-size: 10px;
+    }
+
+    .cont_foot a {
+        font-size: 7px;
+    }
+
+    .p1_footer {
+        font-size: 7px;
+    }
+
+    .p1 {
+        font-size: 15px;
+    }
+
+    .p2 {
+        font-size: 7px;
+    }
+
+    .map {
+        height: 150px;
+        width: 100%;
+    }
+}
+
+@media (max-width:330px) {
+    .fio{
+        width: 150px;
+    }
+    .telNo{
+        width: 150;
+    }
+    .ul_mod li{
+        font-size: 10px;
+    }
+    h1 {
+        font-size: 12px;
+    }
+
+    .text_maine p {
+        font-size: 5px;
+    }
+
+    .img_maine_1 {
+        width: 150px;
+        height: 80px;
+    }
+
+    .im1 {
+        height: 100px;
+    }
+
+    .container_scroll {
+        height: 120px;
+    }
+
+    .cont_foot a {
+        font-size: 5px;
+    }
+
+    .p1_footer {
+        font-size: 5px;
+    }
+
+    .content_1 {
+        height: 100px;
+    }
+
+    footer {
+        height: 20px;
+    }
+
+    .block1 {
+        height: 150px;
+    }
+    .block5 {
+        height: 150px;
+    }
+
+    .block4 {
+        height: 150px;
+    }
+    .block2 {
+        height: 150px;
+    }
+
+    .block3 {
+        height: 150px;
+    }
+.text_but h2{
+    font-size: 6px;
+}
+.btn {
+    width: 50px;
+    height: 10px;
+    font-size: 4px;
+    margin-top: 0px;
+    border-radius: 2px;
+    padding: 6px 6px 6px 6px;
+}
+
+.img_eskurs {
+    width: 100px;
+}
+
+}
